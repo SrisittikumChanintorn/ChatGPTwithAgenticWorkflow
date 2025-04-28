@@ -107,35 +107,11 @@ While the example implementation analyzes Chinese price war impacts on Thailand'
 ## Project Structure 📁
 
 ```bash
-AgenticWorkflow/
-├── agentic_workflow/
-│   ├── __init__.py
-│   ├── config.py                         # API keys and model configuration
-│   ├── core/
-│   │   ├── __init__.py
-│   │   ├── reflection.py                 # Reflection implementation
-│   │   └── tot.py                        # Tree of Thought core logic
-│   ├── perspectives/
-│   │   ├── __init__.py
-│   │   ├── domestic_market/
-│   │   │   ├── __init__.py
-│   │   │   ├── price_undercutting.py     # Sub-branch implementation
-│   │   │   ├── market_share_losses.py    # Sub-branch implementation
-│   │   │   └── innovation_quality.py     # Sub-branch implementation
-│   │   └── consumer_behavior/
-│   │       ├── __init__.py
-│   │       ├── demand_cheaper_goods.py   # Sub-branch implementation
-│   │       ├── disposable_income.py      # Sub-branch implementation
-│   │       └── brand_loyalty.py          # Sub-branch implementation
-│   └── utils/
-│       ├── __init__.py
-│       └── llm_handler.py                # LLM API interaction handler
-├── examples/
-│   ├── economic_analysis.py              # Example script for economic analysis
-│   └── custom_analysis.py                # Template for custom analysis
-├── main.py                               # Main script to run the analysis
-├── requirements.txt                      # Project dependencies
-└── README.md                             # Project documentation
+ChatGPTWithAgenticWorkflow/
+├── agentic_workflow.py        # Core functions for ToT and reflection
+├── main.py                    # Main script to run the analysis
+├── README.md                  # Project documentation
+└── requirements.txt           # Project dependencies
 ```
 
 ## Installation & Usage 🚀
