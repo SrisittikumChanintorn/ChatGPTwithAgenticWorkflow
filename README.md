@@ -114,37 +114,29 @@ ChatGPTWithAgenticWorkflow/
 └── requirements.txt           # Project dependencies
 ```
 
-## Installation & Usage 🚀
+## Setup 🛠️
 
-Clone the repository and set up the environment:
+1. Clone this project to your repository:
 
+2. Create Virtual Environment (optional but recommended)
+
+3. Activate Virtual Environment (venv) or Select Python Interpreture 📦 
+   
 ```bash
-# Clone the repository
-git clone https://github.com/username/AgenticWorkflow.git
-cd AgenticWorkflow
+source venv/bin/activate  # On MacOS use this with CMD
+venv\Scripts\activate     # On Windows use this with CMD
 ```
 
-### Create Virtual Environment (optional but recommended)
-
-```bash
-python -m venv venv
-```
-
-###  Activate Virtual Environment (venv)
-```bash
-source venv/bin/activate  # On MacOS use this
-venv\Scripts\activate     # On Windows use this 
-```
-### Install dependencies
+4. Install dependencies ⬇️
 ```bash
 pip install -r requirements.txt
 ```
 
+5. Configure API key 🔑
+   
+###### Edit `main.py` with your API key
 
-## Configure API key
-#### Edit agentic_workflow/config.py with your API key
-
-## Run the analysis
+6. Run the analysis ▶️
 
 ```bash
 python main.py
