@@ -102,3 +102,85 @@ While the example implementation analyzes Chinese price war impacts on Thailand'
 - Social impact studies
 - Risk analysis for investment decisions
 - Policy consequence evaluation
+  
+
+## Project Structure 📁
+
+```bash
+AgenticWorkflow/
+├── agentic_workflow/
+│   ├── __init__.py
+│   ├── config.py                         # API keys and model configuration
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── reflection.py                 # Reflection implementation
+│   │   └── tot.py                        # Tree of Thought core logic
+│   ├── perspectives/
+│   │   ├── __init__.py
+│   │   ├── domestic_market/
+│   │   │   ├── __init__.py
+│   │   │   ├── price_undercutting.py     # Sub-branch implementation
+│   │   │   ├── market_share_losses.py    # Sub-branch implementation
+│   │   │   └── innovation_quality.py     # Sub-branch implementation
+│   │   └── consumer_behavior/
+│   │       ├── __init__.py
+│   │       ├── demand_cheaper_goods.py   # Sub-branch implementation
+│   │       ├── disposable_income.py      # Sub-branch implementation
+│   │       └── brand_loyalty.py          # Sub-branch implementation
+│   └── utils/
+│       ├── __init__.py
+│       └── llm_handler.py                # LLM API interaction handler
+├── examples/
+│   ├── economic_analysis.py              # Example script for economic analysis
+│   └── custom_analysis.py                # Template for custom analysis
+├── main.py                               # Main script to run the analysis
+├── requirements.txt                      # Project dependencies
+└── README.md                             # Project documentation
+```
+
+## Installation & Usage 🚀
+
+Clone the repository and set up the environment:
+
+```bash
+# Clone the repository
+git clone https://github.com/username/AgenticWorkflow.git
+cd AgenticWorkflow
+```
+
+### Create Virtual Environment (optional but recommended)
+
+```bash
+python -m venv venv
+```
+
+###  Activate Virtual Environment (venv)
+```bash
+source venv/bin/activate  # On MacOS use this
+venv\Scripts\activate     # On Windows use this 
+```
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+
+## Configure API key
+#### Edit agentic_workflow/config.py with your API key
+
+## Run the analysis
+
+```bash
+python main.py
+```
+
+## Example Analysis & Output 📊
+
+### Input Query:
+
+**What is the potential impact of Chinese price war on Thailand economy?**
+
+
+### Output Summary:
+
+Based on the user's input, the best conclusion is that Thai businesses and policymakers should focus on strategies such as diversifying export markets, enhancing product differentiation, strengthening domestic market presence, innovating and improving efficiency, and enhancing export competitiveness in order to mitigate the potential negative impact of a Chinese price war. Additionally, Thai industries should invest in technology and research and development, implement quality management systems, and explore diversification strategies to compete on quality rather than price. Furthermore, Thai brands should address potential erosion of brand loyalty through strategic marketing communications that emphasize unique attributes and differentiate themselves from Chinese competitors
