@@ -2,7 +2,7 @@
 
 ## Project Overview 📚
 
-AgenticWorkflow implements an advanced analytical framework using Tree of Thought methodology enhanced with reflection techniques. This project leverages Claude models from Anthropic to perform deep, multi-perspective analysis of complex questions through structured branching and reflection.
+AgenticWorkflow implements an advanced analytical framework using Tree of Thought methodology enhanced with reflection techniques. This project leverages ChatGPT models from OpenAI to perform deep, multi-perspective analysis of complex questions through structured branching and reflection.
 
 ## Core Concept: Tree of Thought with Reflection 🧠
 
