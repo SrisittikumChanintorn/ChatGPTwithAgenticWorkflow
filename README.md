@@ -134,8 +134,8 @@ pip install -r requirements.txt
 
 5. Configure API key 🔑
 ```bash   
-# Get the permission from the owner of the API key to use it.
-llm1 = OpenAI(api_key=CHATGPT_API_KEY) 
+# Set the API key 
+CHATGPT_API_KEY = 'YOUR_API_KEY'  # Replace with your actual API key
 ```
 
 6. Run the analysis ▶️
