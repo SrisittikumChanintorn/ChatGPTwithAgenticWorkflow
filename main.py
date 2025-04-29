@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 from agentic_workflow import *
 
-# Set the API key for Anthropic 
+# Set the API key 
 CHATGPT_API_KEY = 'YOUR_API_KEY'  # Replace with your actual API key
 
 # Get the permission from the owner of the API key to use it.
